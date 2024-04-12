@@ -1,0 +1,39 @@
+{
+    "data": [
+      {
+        "relevance_score": 0.66796875,
+        "index": 4,
+        "document": null
+      },
+      {
+        "relevance_score": 0.5341796875,
+        "index": 1,
+        "document": null
+      },
+      {
+        "relevance_score": 0.525390625,
+        "index": 0,
+        "document": null
+      },
+      {
+        "relevance_score": 0.521484375,
+        "index": 3,
+        "document": null
+      },
+      {
+        "relevance_score": 0.515625,
+        "index": 5,
+        "document": null
+      },
+      {
+        "relevance_score": 0.5126953125,
+        "index": 2,
+        "document": null
+      }
+    ],
+    "model": "rerank-lite-1",
+    "usage": {
+      "total_tokens": 176
+    }
+  }
+  
