@@ -2,4 +2,4 @@
     "input": ["Sample text 1", "Sample text 2"],
     "input_type": "query", 
     "truncation": "true"
-  }
+}
