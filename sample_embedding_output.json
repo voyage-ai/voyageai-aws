@@ -1,4 +1,5 @@
-{"data": [{"object": "embedding",
+{
+"data": [{"object": "embedding",
    "embedding": ["-0.034678787",
     "0.0046704062",
     "0.023122877",
@@ -2006,4 +2007,5 @@
    "index": 1}],
  "object": "list",
  "model": "voyage-code-02",
- "usage": {"total_tokens": 10}}
+ "usage": {"total_tokens": 10}
+}
