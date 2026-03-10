@@ -1,0 +1,2 @@
+{"id": "0", "inputs": [["Voyage AI builds state-of-the-art embedding models.", "These models are used for semantic search and retrieval-augmented generation (RAG).", "They support text, multimodal, and contextualized inputs."]]}
+{"id": "1", "inputs": [["Contextualized embeddings enrich each chunk with information from the surrounding document.", "Unlike standard embeddings, each chunk is encoded with awareness of its sibling chunks.", "This improves retrieval quality for long, multi-section documents."]]}
