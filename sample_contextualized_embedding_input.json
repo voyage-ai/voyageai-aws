@@ -1,0 +1,12 @@
+{
+    "inputs": [
+        [
+            "Voyage AI provides state-of-the-art embedding models.",
+            "These models power search and RAG applications."
+        ],
+        [
+            "Contextualized embeddings capture document-level context."
+        ]
+    ],
+    "input_type": "document"
+}
