@@ -19,15 +19,21 @@ Models available through `deploy_mongodb_voyage_model_package_sagemaker.ipynb`.
 | voyage-4 | Yes | Yes |
 | voyage-4-lite | Yes | Yes |
 | voyage-4-large | Yes | No (1) |
-| voyage-3.5, voyage-3.5-lite | Yes | Yes |
-| voyage-3-large, voyage-code-3 | Yes | Yes |
+| voyage-3.5 | Yes | Yes |
+| voyage-3.5-lite | Yes | Yes |
+| voyage-3-large | Yes | Yes |
+| voyage-code-3 | Yes | Yes |
+| voyage-code-4 | Yes (3) | Yes (3) |
 | voyage-context-3 | Yes | Yes |
 | voyage-context-4 | Yes | No (1) |
-| voyage-multimodal-3.5, voyage-multimodal-3 | Yes | Yes |
-| rerank-2.5, rerank-2.5-lite | Yes | No (2) |
+| voyage-multimodal-3.5 | Yes | Yes |
+| voyage-multimodal-3 | Yes | Yes |
+| rerank-2.5 | Yes | No (2) |
+| rerank-2.5-lite | Yes | No (2) |
 
 1. Requires a GPU family AWS does not offer for [batch transform jobs](https://docs.aws.amazon.com/sagemaker/latest/dg/batch-transform.html) (G7e class or above). Real-time endpoints only until AWS extends batch transform hardware support.
 2. Reranking scores candidates against a query at request time, so it is a real-time operation. Batch transform is not offered for rerankers.
+3. Pending marketplace listing. `voyage-code-4` is not yet selectable in the notebook, which has no model package ARN for it.
 
 ### Batch transform configuration
 
