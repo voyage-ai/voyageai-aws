@@ -28,6 +28,8 @@ Models available through `deploy_mongodb_voyage_model_package_sagemaker.ipynb`.
 | voyage-context-4 | Yes | No (1) |
 | voyage-multimodal-3.5 | Yes | Yes |
 | voyage-multimodal-3 | Yes | Yes |
+| rerank-3 | Yes | No (2) |
+| rerank-3-lite | Yes | No (2) |
 | rerank-2.5 | Yes | No (2) |
 | rerank-2.5-lite | Yes | No (2) |
 
